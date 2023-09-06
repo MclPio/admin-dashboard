@@ -9,4 +9,4 @@ Goal: practice css intermediate html and css which includes:\
       -borders and box shadows\
       -advanced selectors\
       -forms\
-      -grid\
+      -grid
