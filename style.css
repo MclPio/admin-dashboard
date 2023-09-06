@@ -54,14 +54,14 @@ body {
 }
 
 img {
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
 }
 
 .sidebar > div {
   display: grid;
-  grid-template-columns: 25px 25px;
-  align-items: center;
+  grid-template-columns: 35px 25px;
+  align-items: end;
 }
 
 .sidebar > .title {
@@ -116,6 +116,7 @@ input[type='search'] {
   height: 32px;
   width: 100%;
   padding: 5px 5px 5px 25px;
+  
 }
 
 .form {
@@ -291,4 +292,24 @@ button:hover {
 
 img:hover, .handle:hover {
   cursor: pointer;
+}
+
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.img-stack > img {
+  width: 24px;
+  height: 24px;
+}
+
+.home > img {
+  width: 32px;
+  height: 32px;
+}
+
+.filter-color {
+  filter: invert(92%) sepia(48%) saturate(2355%) hue-rotate(179deg) brightness(108%) contrast(104%);
 }
