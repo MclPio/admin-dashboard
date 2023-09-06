@@ -35,9 +35,10 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   display: grid;
-  grid-template-rows: 6rem repeat(9, 3rem);
+  grid-template-rows: 6rem repeat(6, 50px) 6rem repeat(3, 50px);
   height: 100%;
   color: var(--font-color3);
+  gap: 5px;
 }
 
 .header {
@@ -103,7 +104,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, max-content);
   gap: 30px;
-  padding-right: 20px;
+  padding-right: 30px;
   justify-items: center;
   justify-content: end;
   align-items: center;
@@ -290,7 +291,7 @@ button:hover {
   cursor: pointer;
 }
 
-img:hover, .handle:hover {
+img:hover, .handle:hover, .sidebar > div:hover {
   cursor: pointer;
 }
 
